@@ -1,0 +1,13 @@
+@'
+# Secrets
+*.env
+secrets.json
+*client_secret*
+
+# Postman environment files (contain tokens)
+*postman_environment*
+
+# OS
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Path .gitignore -Encoding UTF8
