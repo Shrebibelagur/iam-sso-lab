@@ -1,4 +1,4 @@
-@'
+
 # IAM SSO Federation Lab — SAML and OIDC/OAuth 2.0
 
 ## Overview
