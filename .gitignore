@@ -1,13 +1,15 @@
 @'
-# Secrets
+# Secrets and tokens
 *.env
 secrets.json
 *client_secret*
+*access_token*
 
-# Postman environment files (contain tokens)
-*postman_environment*
+# Evidence files containing real tokens
+evidence/pkce-token-response.json
+evidence/decoded-jwt.json
+evidence/saml-assertion.xml
 
-# OS
-.DS_Store
-Thumbs.db
+# HTTP files containing client IDs and codes
+collections/oauth-requests.http
 '@ | Set-Content -Path .gitignore -Encoding UTF8
