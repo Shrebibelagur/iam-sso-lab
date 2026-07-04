@@ -17,8 +17,6 @@ docs/               # Protocol notes and comparison document
 collections/        # Postman collection JSON
 evidence/           # Decoded tokens and captured assertions
 
-@'
-
 ## Key learnings
 
 - SPA app type in Entra ID cannot exchange auth codes via server-side tools
